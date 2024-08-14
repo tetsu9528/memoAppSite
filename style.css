@@ -14,10 +14,10 @@ p {
 }
 
 h3 {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: bold;
     color: #1E87FF;
-    margin: 48px 16px;
+    margin: 48px 64px;
 }
 
 
@@ -97,7 +97,6 @@ header img {
 .section-right {
     margin-top: 24px;
     width: 55%;
-    padding: 8px;
 
 }
 
@@ -183,4 +182,27 @@ header img {
 
 .conceptColor-right p {
     font-size: 20px;
+}
+
+
+/* serviceProcess */
+.serviceProcess{
+    padding:64px;
+}
+.process{
+    display: flex;
+}
+.process img{
+    width:50%;
+    margin-left: 32px;
+}
+.process-left{
+    width:50%;
+}
+.process-right{
+    width:50%;
+    line-height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px;
 }
