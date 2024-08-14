@@ -297,3 +297,7 @@ header img {
 .design-03 p{
     margin-right: 64px;
 }
+.UIText p{
+    width: 80%;
+    margin: 16px auto;
+}
