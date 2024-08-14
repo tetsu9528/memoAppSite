@@ -206,7 +206,8 @@ header img {
     font-weight: bold;
     margin: 24px;
 }
-.process-01{
+.process-01,
+.process-02{
     margin-bottom: 128px;
 }
 
@@ -218,4 +219,14 @@ header img {
     font-weight: bold;
     font-size: 48px;
     margin:64px 32px;
+}
+
+.processText {
+    width: 80%;
+    line-height: 48px;
+    margin: 16px auto;
+}
+.process-03 #heading{
+    text-align: center;
+    margin: 0;
 }
