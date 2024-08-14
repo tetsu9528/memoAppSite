@@ -63,18 +63,21 @@ header img {
 }
 .section{
     display: flex;
+    width:90%;
+    margin:16px auto;
 }
 .section-left{
-    width:50%;
+    width:45%;
 }
 .section-left img{
-    width:80%;
-    margin:8px 64px;
-    
+    margin-left: 160px;
+    width:45%;
 }
 .section-right{
-    width: 50%;
-    margin-right: 32px;
+    margin-top: 24px;
+    width: 55%;
+    padding:8px;
+  
 }
 
 .section-right h3{
@@ -88,4 +91,20 @@ header img {
     font-size: 20px;
     font-weight: bold;
     margin:24px;
+}
+
+/* features */
+.feature{
+    display: flex;
+    width:100%;
+    margin:16px 32px;
+}
+.feature img{
+    width:60%;
+    margin:0px 64px;
+}
+.mockup p{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
 }
