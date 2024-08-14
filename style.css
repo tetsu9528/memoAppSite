@@ -21,6 +21,9 @@ header img {
 .hero {
     display: flex;
 }
+.hero img{
+    transform: scale(0.7);
+}
 
 .begin {
    font-weight: bold;
@@ -31,9 +34,7 @@ header img {
     letter-spacing: .1em;
     line-height: 128px;
 }
-.hero img{
-    transform: scale(0.7);
-}
+
 
 .beginContents {
     width: 100%;
@@ -45,9 +46,45 @@ header img {
 
 #subtitle {
     font-size: 48px;
+    white-space: nowrap;
+
 }
 
 #title {
     font-size: 96px;
 
+}
+
+#sectionTitle{
+    text-align: center;
+    font-size: 64px;
+    margin:24px;
+}
+.section{
+    display: flex;
+}
+.section-left{
+    width:50%;
+}
+.section-left img{
+    width:80%;
+    margin:8px 64px;
+    
+}
+.section-right{
+    width: 50%;
+    margin-right: 32px;
+}
+
+.section-right h3{
+    font-size: 64px;
+    font-weight: bold;
+    color:#1E87FF;
+    margin:48px 16px;
+}
+.section-right p{
+    line-height: 64px;
+    font-size: 24px;
+    font-weight: bold;
+    margin:24px;
 }
