@@ -206,3 +206,16 @@ header img {
     font-weight: bold;
     margin: 24px;
 }
+.process-01{
+    margin-bottom: 128px;
+}
+
+.process-02 img{
+    width:60%;
+}
+
+#heading{
+    font-weight: bold;
+    font-size: 48px;
+    margin:64px 32px;
+}
