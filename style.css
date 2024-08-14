@@ -1,20 +1,27 @@
 @charset "urf-8";
 
+
+
+/* 全体 */
 * {
     margin: 0;
     font-family: "Inter", sans-serif;
     letter-spacing: .1em;
 }
-p{
+
+p {
     font-weight: bold;
-}
-h3{
-    font-size: 56px;
-    font-weight: bold;
-    color:#1E87FF;
-    margin:48px 16px;
 }
 
+h3 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #1E87FF;
+    margin: 48px 16px;
+}
+
+
+/* ヘッダー */
 header {
     display: flex;
     background-color: #eee;
@@ -26,17 +33,19 @@ header img {
     width: 50px;
 }
 
-/* hero */
 
+
+/* hero */
 .hero {
     display: flex;
 }
-.hero img{
+
+.hero img {
     transform: scale(0.7);
 }
 
-.begin {
-   font-weight: bold;
+.hero-right {
+    font-weight: bold;
     font-size: 24px;
     margin: 24px;
     width: 100%;
@@ -45,116 +54,133 @@ header img {
     line-height: 128px;
 }
 
-
-.beginContents {
+.hero-rightContents {
     width: 100%;
     position: absolute;
     text-align: center;
-    top:20%;
+    top: 20%;
 }
-
 
 #subtitle {
     font-size: 48px;
     white-space: nowrap;
-
 }
 
 #title {
     font-size: 96px;
-
 }
 
-#sectionTitle{
+
+
+/* QuickReviewとは？ */
+#sectionTitle {
     text-align: center;
     font-size: 64px;
-    margin:24px;
+    margin: 24px;
 }
-.section{
+
+.section {
     display: flex;
-    width:90%;
-    margin:16px auto;
+    width: 90%;
+    margin: 16px auto;
 }
-.section-left{
-    width:45%;
+
+.section-left {
+    width: 45%;
 }
-.section-left img{
+
+.section-left img {
     margin-left: 160px;
-    width:45%;
+    width: 45%;
 }
-.section-right{
+
+.section-right {
     margin-top: 24px;
     width: 55%;
-    padding:8px;
-  
+    padding: 8px;
+
 }
 
-
-.section-right p{
+.section-right p {
     line-height: 64px;
     font-size: 20px;
     font-weight: bold;
-    margin:24px;
+    margin: 24px;
 }
 
+
+
 /* features */
-.feature{
+.feature {
     display: flex;
-    width:100%;
-    margin:16px 32px;
+    width: 100%;
+    margin: 16px 32px;
     transform: scale(0.9);
-    
 }
-.feature img{
-    width:60%;
-    margin:0px 64px;
+
+.feature img {
+    width: 60%;
+    margin: 0px 64px;
 }
-.concept{
+
+
+
+/* 志望理由とコンセプトカラー */
+.concept {
     background-color: #f2f2f5;
-    padding:64px;
+    padding: 64px;
 }
-.mockup{
+
+.mockup {
     overflow: hidden;
 }
-.mockup p{
+
+.mockup p {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
 }
-.reason p{
+
+.reason p {
     line-height: 32px;
     font-size: 20px;
-    margin:24px;
-    
+    margin: 24px;
 }
-.reasonText{
-    width:80%;
-    margin:16px auto;
+
+.reasonText {
+    width: 80%;
+    margin: 16px auto;
 }
-.conceptColorContent{
-    display: flex;
-}
-.conceptColor-left{
-    width:50%;
-}
-.conceptColor-left p{
-    font-weight: bold;
-    color:#1E87FF;
-    font-size: 16px;
-    margin:16px;
-    letter-spacing: .1em;
-}
-.colorDescription{
+
+.conceptColorContent {
     display: flex;
 }
 
-.conceptColor-left img{
-    width:20%;
-    margin-left:160px;
+.conceptColor-left {
+    width: 50%;
 }
-.conceptColor-right{
-    width:40%;
+
+.conceptColor-left p {
+    font-weight: bold;
+    color: #1E87FF;
+    font-size: 16px;
+    margin: 16px;
+    letter-spacing: .1em;
 }
-.conceptColor-right p{
+
+.colorDescription {
+    display: flex;
+}
+
+.conceptColor-left img {
+    width: 20%;
+    margin-left: 128px;
+}
+
+.conceptColor-right {
+    width: 40%;
+}
+
+.conceptColor-right p {
     font-size: 20px;
 }
