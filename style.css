@@ -265,12 +265,13 @@ header img {
 
 .design-02{
     display: flex;
+    margin-bottom: 128px;
 }
 .design-left{
     width:50%;
 }
 .design-left img{
-    
+    margin-top: 64px;
     margin-left:128px;
 }
 .design-right{
@@ -280,4 +281,15 @@ header img {
     font-weight: bold;
     margin: 24px;
 
+}
+.designContents{
+    display: flex;
+}
+.design-left02{
+    width:50%;
+    padding: 48px;
+}
+.design-left02 p{
+    font-size: 96px;
+    padding:16px auto;
 }
