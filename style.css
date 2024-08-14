@@ -5,6 +5,15 @@
     font-family: "Inter", sans-serif;
     letter-spacing: .1em;
 }
+p{
+    font-weight: bold;
+}
+h3{
+    font-size: 56px;
+    font-weight: bold;
+    color:#1E87FF;
+    margin:48px 16px;
+}
 
 header {
     display: flex;
@@ -80,12 +89,7 @@ header img {
   
 }
 
-.section-right h3{
-    font-size: 56px;
-    font-weight: bold;
-    color:#1E87FF;
-    margin:48px 16px;
-}
+
 .section-right p{
     line-height: 64px;
     font-size: 20px;
@@ -98,13 +102,59 @@ header img {
     display: flex;
     width:100%;
     margin:16px 32px;
+    transform: scale(0.9);
+    
 }
 .feature img{
     width:60%;
     margin:0px 64px;
 }
+.concept{
+    background-color: #f2f2f5;
+    padding:64px;
+}
+.mockup{
+    overflow: hidden;
+}
 .mockup p{
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+}
+.reason p{
+    line-height: 32px;
+    font-size: 20px;
+    margin:24px;
+    
+}
+.reasonText{
+    width:80%;
+    margin:16px auto;
+}
+.conceptColorContent{
+    display: flex;
+}
+.conceptColor-left{
+    width:50%;
+}
+.conceptColor-left p{
+    font-weight: bold;
+    color:#1E87FF;
+    font-size: 16px;
+    margin:16px;
+    letter-spacing: .1em;
+}
+.colorDescription{
+    display: flex;
+}
+
+.conceptColor-left img{
+    width:20%;
+    margin-left:160px;
+}
+.conceptColor-right{
+    width:40%;
+}
+.conceptColor-right p{
+    font-size: 20px;
 }
