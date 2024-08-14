@@ -186,39 +186,44 @@ header img {
 
 
 /* serviceProcess */
-.serviceProcess{
-    padding:64px;
+.serviceProcess {
+    padding: 64px;
 }
-.process{
+
+.process {
     display: flex;
 }
-.process img{
-    width:50%;
+
+.process img {
+    width: 50%;
     margin-left: 32px;
 }
-.process-left{
-    width:50%;
+
+.process-left {
+    width: 50%;
 }
-.process-right{
-    width:50%;
+
+.process-right {
+    width: 50%;
     line-height: 48px;
     font-size: 20px;
     font-weight: bold;
     margin: 24px;
 }
+
 .process-01,
-.process-02{
+.process-02 {
     margin-bottom: 128px;
 }
 
-.process-02 img{
-    width:60%;
+.process-02 img {
+    width: 60%;
 }
 
-#heading{
+#heading {
     font-weight: bold;
     font-size: 48px;
-    margin:64px 32px;
+    margin: 64px 32px;
 }
 
 .processText {
@@ -226,7 +231,53 @@ header img {
     line-height: 48px;
     margin: 16px auto;
 }
-.process-03 #heading{
+
+.process-03 #heading {
     text-align: center;
     margin: 0;
+}
+
+
+/* designProcess */
+.designProcess {
+    background-color: #f2f2f5;
+    padding: 64px;
+}
+
+.design-01{
+    margin-bottom: 128px;
+}
+
+.wireFrame {
+    margin: 64px;
+}
+
+.wireFrame img {
+    display: block;
+    margin: 16px auto;
+    width: 40%;
+}
+
+.designText {
+    width: 80%;
+    margin: 16px auto;
+}
+
+.design-02{
+    display: flex;
+}
+.design-left{
+    width:50%;
+}
+.design-left img{
+    
+    margin-left:128px;
+}
+.design-right{
+   width:40%;
+    line-height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px;
+
 }
