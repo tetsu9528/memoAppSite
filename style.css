@@ -139,7 +139,7 @@ header img {
 /* 志望理由とコンセプトカラー */
 .concept {
     background-color: #f2f2f5;
-    padding: 64px;
+    padding: 32px;
 }
 
 .reason p {
@@ -150,7 +150,7 @@ header img {
 
 .reasonText {
     width: 80%;
-    margin: 16px auto;
+    
 }
 
 .conceptColorContents {
@@ -159,20 +159,21 @@ header img {
 
 .conceptColor-left {
     width: 50%;
-    display: flex;
+    display: block;
+   
 }
 
 .conceptColor-left p {
     font-weight: bold;
     color: #1E87FF;
     font-size: 16px;
-    margin: 16px;
     letter-spacing: .1em;
+    text-align: center;
 }
 
 .conceptColor-left img {
-    width: 20%;
-    margin-left: 128px;
+    display: block;
+    margin:0 auto;
 }
 
 .conceptColor-right {
@@ -180,7 +181,9 @@ header img {
 }
 
 .conceptColor-right p {
+    display: block;
     font-size: 20px;
+    margin:32px auto;
 }
 
 
@@ -311,7 +314,7 @@ header img {
 }
 
 .design03-left p {
-    font-size: 96px;
+    font-size: 80px;
     padding: 16px auto;
 }
 
@@ -464,12 +467,14 @@ header img {
     }
 }
 
-@media(max-width:428px) {
+@media(max-width:431px) {
     body{
         all:unset;
         line-height: 32px;
     }
-    
+    p{
+        margin:32px;
+    }
 
     h3{
         font-size: 24px;
@@ -491,9 +496,11 @@ header img {
         display: block;
        transform: scale(0.7);
        margin-bottom: 128px;
+       
     }
     #subtitle{
         font-size: 24px;
+        margin-bottom: 32px;
     }
     #title{
         font-size: 48px;
@@ -530,15 +537,14 @@ header img {
     }
 
     
-    .concept{
-        padding:64px 0;
-    }
-    .reasonText p{
+    
+    .reason p{
+        
         font-size: 16px;
+       
     }
-    .conceptColor{
-        text-align: center;
-    }
+   
+    
     .conceptColor-right{
         width:80%;
         display: block;
@@ -554,9 +560,13 @@ header img {
         all:unset;
         display: block;
         text-align: center;
+        margin:32px auto;
     }
     .conceptColor-left{
       margin:16px auto;
+    }
+    .conceptColor-left img{
+        margin:16px auto;
     }
     .conceptColor-right{
         all:unset;
@@ -564,11 +574,7 @@ header img {
         text-align: center;
         margin:16px;
     }
-    .conceptColor-right p{
-       
-        margin:24px;
-    }
-
+   
     #heading{
         font-size: 16px;
     }
@@ -579,9 +585,7 @@ header img {
     .process-right{
         all:unset;
     }
-    .process-right p{
-        margin:24px;
-    }
+   
  #reference{
     overflow-wrap: anywhere;
  }
@@ -608,6 +612,9 @@ header img {
     }
     .UIText p{
         font-size: 16px;
+    }
+    #screen{
+        margin:0;
     }
     
 
