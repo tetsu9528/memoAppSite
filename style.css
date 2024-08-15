@@ -69,6 +69,7 @@ header img {
 
 #title {
     font-size: 96px;
+    word-break: break-all;
 }
 
 
@@ -305,6 +306,7 @@ header img {
 
 .design03 p {
     margin-right: 64px;
+    word-break: break-all;
 }
 
 .design03-left p {
@@ -466,7 +468,7 @@ header img {
         all:unset;
         line-height: 32px;
     }
-    p{    }
+    
 
     h3{
         font-size: 24px;
