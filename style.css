@@ -466,9 +466,7 @@ header img {
         all:unset;
         line-height: 32px;
     }
-    p{
-        margin: 24px;
-    }
+    p{    }
 
     h3{
         font-size: 24px;
@@ -577,6 +575,9 @@ header img {
     }
     .process-right{
         all:unset;
+    }
+    .process-right p{
+        margin:24px;
     }
  #reference{
     overflow-wrap: anywhere;
