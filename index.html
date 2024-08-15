@@ -13,6 +13,7 @@
         rel="stylesheet">
 
 </head>
+
 <header>
     <h1>QuickReview</h1>
     <img src="./img/mail.svg">
@@ -20,10 +21,9 @@
 
 <body>
     <div class="hero">
-        <img src="./img/heroImg.png">
-
+        <img src="./img/heroImg.png" alt="メモを取る人">
         <div class="hero-right">
-            <div class="hero-rightContents">
+            <div class="titles">
                 <p id="subtitle">手軽にレビューを作れるアプリ</p>
                 <p id="title">QuickReview</p>
             </div>
@@ -32,11 +32,11 @@
 
     <div class="description">
         <h2 id="sectionTitle">QuickReviewとは？</h2>
-        <div class="section">
-            <div class="section-left">
-                <img src="./img/mockup1.png">
+        <div class="descriptionContents">
+            <div class="description-left">
+                <img src="./img/mockup1.png" alt="ホーム画面">
             </div>
-            <div class="section-right">
+            <div class="description-right">
                 <h3>悩まない、レビュー作成</h3>
                 <p>レビュー作成アプリ「QuickReview」は、作品のレビューをより手軽に作れるサービスです。<br />
                     あらかじめ用意してあるリストを埋めていき、気付いたらレビューが完成している、という点がこのアプリの特徴です。
@@ -48,17 +48,17 @@
 
     <div class="features">
         <h2 id="sectionTitle">特徴</h2>
-        <div class="feature">
+        <div class="featureContents">
             <div class="mockup">
-                <img src="./img/mockup1.png">
+                <img src="./img/mockup1.png" alt="ホーム画面">
                 <p>画像付きの見出し</p>
             </div>
             <div class="mockup">
-                <img src="./img/mockup2.png">
+                <img src="./img/mockup2.png" alt="チャプター作成画面">
                 <p>簡単なチャプター作成</p>
             </div>
             <div class="mockup">
-                <img src="./img/mockup3.png">
+                <img src="./img/mockup3.png" alt="レビュー作成画面">
                 <p>用意されたテンプレート</p>
             </div>
         </div>
@@ -74,13 +74,11 @@
         </div>
         <div class="conceptColor">
             <h3>コンセプトカラー</h3>
-            <div class="conceptColorContent">
+            <div class="conceptColorContents">
                 <div class="conceptColor-left">
-                    <div class="colorDescription">
-                        <img src="./img/conceptColor.png">
-                        <p>HEX #1E87FF<br />
-                            RGB/30 135 255</p>
-                    </div>
+                    <img src="./img/conceptColor.png" alt="コンセプトカラーは青">
+                    <p>HEX #1E87FF<br />
+                        RGB/30 135 255</p>
                 </div>
                 <div class="conceptColor-right">
                     <p>青色などの寒色系は「心のエネルギーが自分の内側に向かっているとき」という、まさにレビューアプリにぴったりな意味を持っていたので使用しました。</p>
@@ -95,7 +93,7 @@
             <h3>01 レビューを書くハードル</h3>
             <div class="process">
                 <div class="process-left">
-                    <img src="./img/troubleMan.png">
+                    <img src="./img/troubleMan.png" alt="悩む人">
                 </div>
                 <div class="process-right">
                     <p id="heading">何から始めるか</p>
@@ -115,7 +113,7 @@
                     <img src="./img/happyMan.png">
                 </div>
                 <div class="process-right">
-                    <p id="heading">好きな作品を広めたい！</p>
+                    <p id="heading">作品を広めたい！</p>
                     <p>「自分の好きな作品をほかのユーザーにも興味を持ってほしい！けど書き方がわからない...」という人の助けになればと思い、制作しました。</p>
                 </div>
             </div>
@@ -128,8 +126,8 @@
                 <p>まず一番に解決するべき問題は「感想とレビューはどう違うのか？」だと考えました。
                     検索すれば感想とレビューの違いについて解説しているサイトがいくつかありますが、調べる負担が生じてしまいます。
                     そこで、感想にはなく、レビューにはある要素を最初から用意してあるサービスがあれば、手軽にレビューを作成できるのではないかと考えました。<br />
-                    レビューにしかない要素として、例えば「自分が購入する決め手になった要素」「面白いと感じた理由」などがあります。<br />
-                    参考)読んでおきたいレビューの心得 https://ncode.syosetu.com/n2109ck/2/<br />
+                    レビューにしかない要素として、例えば「自分が購入する決め手になった要素」「面白いと感じた理由」などがあります。<br /></p>
+                <p id="reference">参考)読んでおきたいレビューの心得 https://ncode.syosetu.com/n2109ck/2/<br />
                     「紹介」と「感想」と「レビュー」の違い https://directorblog.jp/archives/50832440.html</p>
             </div>
         </div>
@@ -156,6 +154,7 @@
                 <img src="./img/UIImg1.png">
             </div>
             <div class="design-right">
+                <p id="heading">要素の生成</p>
                 <p>レビューに必要な要素である<br />
                     ・「面白かった箇所と理由」<br />
                     ・「購入の決め手となった箇所」<br />
@@ -167,41 +166,42 @@
         <div class="design-03">
             <h3>02 アプリ名の決定</h3>
             <div class="designContents">
-            <div class="design-left02">
-                <p>QuickReview</p>
+                <div class="design-left02">
+                    <p>QuickReview</p>
+                </div>
+                <div class="design-right">
+                    <p id="heading">伝わる名前</p>
+                    <p>このアプリの内容がすぐわかるように、シンプルな名前にしました。</p>
+                </div>
             </div>
-            <div class="design-right">
-                <p>このアプリの内容がすぐわかるように、シンプルな名前にしました。</p>
+        </div>
+        <div class="design-03">
+            <h3>03 UIデザイン</h3>
+            <div class="features">
+                <div class="featureContents">
+                    <div class="mockup">
+                        <img src="./img/mockup1.png">
+                        <p>ホーム画面</p>
+                    </div>
+                    <div class="mockup">
+                        <img src="./img/mockup2.png">
+                        <p>詳細画面</p>
+                    </div>
+                    <div class="mockup">
+                        <img src="./img/mockup3.png">
+                        <p>レビュー画面</p>
+                    </div>
+                </div>
+            </div>
+            <div class="UIText">
+                <p>01同様、2つのサービスをもとに制作しました。
+                    長時間使っても目に負担がかからないよう、黒をメインとした配色にしました。
+                    レビューのみに集中してほしいため、一目でどこを操作すればよいかわかるようにしました。
+                    製作はhtml,css,javascriptを用いて行いましたが、書いた内容の保持ができなかったことが非常に残念でした。<br />
+                    githubURL) https://tetsu9528.github.io/memoApp/</p>
             </div>
         </div>
     </div>
-    <div class="design-03">
-        <h3>03 UIデザイン</h3>
-        <div class="features">
-            <div class="feature">
-                <div class="mockup">
-                    <img src="./img/mockup1.png">
-                    <p>ホーム画面</p>
-                </div>
-                <div class="mockup">
-                    <img src="./img/mockup2.png">
-                    <p>詳細画面</p>
-                </div>
-                <div class="mockup">
-                    <img src="./img/mockup3.png">
-                    <p>レビュー画面</p>
-                </div>
-            </div>
-        </div>
-        <div class="UIText">
-            <p>01同様、2つのサービスをもとに制作しました。
-                長時間使っても目に負担がかからないよう、黒をメインとした配色にしました。
-                レビューのみに集中してほしいため、一目でどこを操作すればよいかわかるようにしました。
-                製作はhtml,css,javascriptを用いて行いましたが、書いた内容の保持ができなかったことが非常に残念でした。<br />
-                githubURL) https://tetsu9528.github.io/memoApp/</p>
-        </div>
-    </div>
-</div>
 
     <script src="main.js"></script>
 </body>
