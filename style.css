@@ -328,6 +328,9 @@ header img {
 @media(max-width:960px) {
 
     /* 全体 */
+    h1{
+        font-size: 24px;
+    }
     h3 {
         margin: 0;
         text-align: center;
@@ -337,6 +340,7 @@ header img {
     .hero {
         display: block;
     }
+   
 
     .hero img {
         margin: 0;
@@ -468,6 +472,9 @@ header img {
 }
 
 @media(max-width:431px) {
+    header img{
+        width:25px;
+    }
     body{
         all:unset;
         line-height: 32px;
@@ -478,6 +485,7 @@ header img {
 
     h3{
         font-size: 24px;
+        margin-bottom: 32px;
     }
     header h1 {
         margin: 8px;
@@ -500,10 +508,12 @@ header img {
     }
     #subtitle{
         font-size: 24px;
+        margin:0;
         margin-bottom: 32px;
     }
     #title{
-        font-size: 48px;
+        margin:0;
+        font-size: 32px;
     }
     #sectionTitle{
         font-size: 24px;
@@ -533,9 +543,17 @@ header img {
     }
 
     .design03-left p{
-        font-size: 36px;
+        display: block;
+  
+        font-size: 32px;
+        text-align: center;
+        width:auto;
     }
-
+    
+    .design03-right p{
+        margin-right: 32px;
+        text-align: left;
+    }
     
     
     .reason p{
