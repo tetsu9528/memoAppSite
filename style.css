@@ -339,6 +339,7 @@ header img {
     .hero-right {
         margin-bottom: 128px;
         transform: scale(0.7);
+        text-align: center;
     }
 
     .titles {
@@ -463,6 +464,10 @@ header img {
 @media(max-width:428px) {
     body{
         all:unset;
+        line-height: 32px;
+    }
+    p{
+        margin: 24px;
     }
 
     h3{
@@ -476,7 +481,15 @@ header img {
         width:100%;
     }
     .hero-right{
-        width:100%;
+        all:unset;
+        width:50%;
+        text-align: center;
+    }
+    .titles{
+        all:unset;
+        display: block;
+       transform: scale(0.7);
+       margin-bottom: 128px;
     }
     #subtitle{
         font-size: 24px;
@@ -496,6 +509,16 @@ header img {
         line-height: 32px;
        
     }
+   
+    .featureContents{
+        display: block;
+    }
+    .mockup img{
+        display: block;
+    }
+    .mockup p{
+        font-size: 24px;
+    }
 
     .design02-left img{
         width:100%;
@@ -505,11 +528,9 @@ header img {
         font-size: 36px;
     }
 
-    .mockup p{
-        font-size: 16px;
-    }
+    
     .concept{
-        padding:32px 8px;
+        padding:64px 0;
     }
     .reasonText p{
         font-size: 16px;
@@ -517,7 +538,16 @@ header img {
     .conceptColor{
         text-align: center;
     }
-    
+    .conceptColor-right{
+        width:80%;
+        display: block;
+       text-align: center;
+       margin-left: 24px;
+    }
+
+    .conceptColor-right p{
+        font-size: 16px;
+    }
 
     .conceptColorContents{
         all:unset;
@@ -529,27 +559,51 @@ header img {
     }
     .conceptColor-right{
         all:unset;
-        width:85%;
         display: block;
         text-align: center;
         margin:16px;
     }
     .conceptColor-right p{
        
-        margin:16px;
+        margin:24px;
     }
 
     #heading{
         font-size: 16px;
     }
     .serviceProcess p{
-        font-size: 8px;
+        font-size: 16px;
+        line-height: 32px;
     }
+    .process-right{
+        all:unset;
+    }
+ #reference{
+    overflow-wrap: anywhere;
+ }
+    .wireFrame{
+        all:unset;
+    }
+    .wireFrame img{
+        all:unset;
+        width:100%;
+        margin:16px auto;
+    }
+    .design01{
+        margin-bottom: 128px;
+    }
+
     .design02-left img{
         margin:0;
     }
+    .serviceProcess{
+        padding:0;
+    }
+    .designProcess{
+        padding:32px;
+    }
     .UIText p{
-        font-size: 8px;
+        font-size: 16px;
     }
     
 
