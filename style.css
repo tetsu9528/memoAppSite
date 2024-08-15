@@ -27,6 +27,7 @@ header {
     background-color: #eee;
     padding: 24px 64px;
     justify-content: space-between;
+
 }
 
 header img {
@@ -46,7 +47,7 @@ header img {
 
 .hero-right {
     position: relative;
-    width:100%;
+    width: 100%;
     margin: 24px;
     font-size: 24px;
     font-weight: bold;
@@ -63,6 +64,7 @@ header img {
 
 #subtitle {
     font-size: 48px;
+    white-space: nowrap;
 }
 
 #title {
@@ -115,12 +117,12 @@ header img {
 }
 
 .mockup {
-   text-align: center;
+    text-align: center;
 }
 
 .mockup img {
     width: 60%;
-   margin:0 auto;
+    margin: 0 auto;
 }
 
 .mockup p {
@@ -227,7 +229,7 @@ header img {
     margin: 16px auto;
 }
 
-#reference{
+#reference {
     font-weight: normal;
     opacity: .7;
 }
@@ -238,13 +240,13 @@ header img {
 }
 
 
-/* designProcess */
+/* 設計プロセス */
 .designProcess {
     background-color: #f2f2f5;
     padding: 64px;
 }
 
-.design-01{
+.design01 {
     margin-bottom: 128px;
 }
 
@@ -263,43 +265,198 @@ header img {
     margin: 16px auto;
 }
 
-.design-02{
+.design02 {
     display: flex;
     margin-bottom: 128px;
 }
-.design-left{
-    width:55%;
+
+.design02-left {
+    width: 55%;
 }
-.design-left img{
-   margin:64px;
+
+.design02-left img {
+    margin: 64px;
 }
-.design-right{
+
+.design02-right,
+.design03-right {
     width: 45%;
     line-height: 48px;
     font-size: 20px;
     font-weight: bold;
     margin: 24px;
 }
-.design-03 #heading{
-    margin:8px;
+
+.design03 #heading {
+    margin: 8px;
     margin-bottom: 32px;
 }
-.designContents{
+
+.designContents {
     display: flex;
 }
-.design-left02{
-    width:50%;
+
+.design02-left,
+.design03-left {
+    width: 50%;
     padding: 48px;
 }
-.design-left02 p{
-    font-size: 96px;
-    padding:16px auto;
-}
 
-.design-03 p{
+
+.design03 p {
     margin-right: 64px;
 }
-.UIText p{
+
+.design03-left p {
+    font-size: 96px;
+    padding: 16px auto;
+}
+
+.UIText p {
     width: 80%;
     margin: 16px auto;
+}
+
+
+
+@media(max-width:960px) {
+
+    /* 全体 */
+    h3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    /* hero */
+    .hero {
+        display: block;
+    }
+
+    .hero img {
+        margin: 0;
+    }
+
+    .hero-right {
+        margin-bottom: 128px;
+        transform: scale(0.7);
+    }
+
+    .titles {
+        all: unset;
+    }
+
+
+    /* QuickReviewとは？ */
+    .descriptionContents {
+        display: block;
+    }
+
+    .description-left {
+        all: unset;
+    }
+
+    .description-right {
+        all: unset;
+    }
+
+
+    /* コンセプトカラー */
+    .conceptColor-left img {
+        width: 50%;
+        margin: 0;
+    }
+
+
+    /* 制作プロセス */
+    .serviceProcess {}
+
+    .process {
+        all: unset;
+        display: block;
+    }
+
+    .process-left {
+        width: 100%;
+    }
+
+    .process-left img {
+        display: block;
+        margin: 16px auto;
+        text-align: center;
+    }
+
+    .process-right {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* 設計プロセス */
+    .design01 {
+        margin-bottom: 0;
+    }
+
+    .design02 {
+        display: block;
+    }
+
+    #heading {
+        text-align: center;
+    }
+
+    .design02-right {
+        all: unset;
+    }
+
+    .design03 {
+        all: unset;
+    }
+
+    .designContents {
+        display: block;
+    }
+
+    .design02-left {
+        all: unset;
+    }
+
+    .design02-left p {
+        margin: 0;
+        margin-bottom: 64px;
+    }
+
+    .design02-right p {
+        margin: 16px auto;
+        width: 80%;
+    }
+
+    .design02-right {
+        all: unset;
+    }
+
+    .design03-left {
+        all: unset;
+        width: 100%;
+    }
+
+    .designContents {
+        margin-bottom: 128px;
+    }
+
+    .design03-left p {
+        margin: 0;
+        font-size: 88px;
+        width: fit-content;
+    }
+
+    .design03-right {
+        all: unset;
+        
+    }
+
+    .design03-right p{
+      margin-right: 0;
+      text-align: center;
+    }
+
 }
