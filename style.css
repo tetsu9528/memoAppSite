@@ -451,12 +451,110 @@ header img {
 
     .design03-right {
         all: unset;
-        
+
     }
 
-    .design03-right p{
-      margin-right: 0;
-      text-align: center;
+    .design03-right p {
+        margin-right: 0;
+        text-align: center;
     }
+}
+
+@media(max-width:428px) {
+    body{
+        all:unset;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+    header h1 {
+        margin: 8px;
+    }
+
+    .hero img{
+        width:100%;
+    }
+    .hero-right{
+        width:100%;
+    }
+    #subtitle{
+        font-size: 24px;
+    }
+    #title{
+        font-size: 48px;
+    }
+    #sectionTitle{
+        font-size: 24px;
+    }
+    .description-left img{
+        display: block;
+        margin:16px auto;
+    }
+    .description-right p{
+        font-size: 16px;
+        line-height: 32px;
+       
+    }
+
+    .design02-left img{
+        width:100%;
+    }
+
+    .design03-left p{
+        font-size: 36px;
+    }
+
+    .mockup p{
+        font-size: 16px;
+    }
+    .concept{
+        padding:32px 8px;
+    }
+    .reasonText p{
+        font-size: 16px;
+    }
+    .conceptColor{
+        text-align: center;
+    }
+    
+
+    .conceptColorContents{
+        all:unset;
+        display: block;
+        text-align: center;
+    }
+    .conceptColor-left{
+      margin:16px auto;
+    }
+    .conceptColor-right{
+        all:unset;
+        width:85%;
+        display: block;
+        text-align: center;
+        margin:16px;
+    }
+    .conceptColor-right p{
+       
+        margin:16px;
+    }
+
+    #heading{
+        font-size: 16px;
+    }
+    .serviceProcess p{
+        font-size: 8px;
+    }
+    .design02-left img{
+        margin:0;
+    }
+    .UIText p{
+        font-size: 8px;
+    }
+    
+
+  
+
+   
 
 }
