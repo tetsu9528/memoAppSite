@@ -7,6 +7,7 @@
     margin: 0;
     font-family: "Inter", sans-serif;
     letter-spacing: .1em;
+    word-break: break-all;
 }
 
 p {
@@ -371,7 +372,7 @@ header img {
 
 
     /* 制作プロセス */
-    .serviceProcess {}
+   
 
     .process {
         all: unset;
