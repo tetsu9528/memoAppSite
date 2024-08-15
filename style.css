@@ -112,14 +112,25 @@ header img {
 /* features */
 .feature {
     display: flex;
-    width: 100%;
     margin: 16px 32px;
-    transform: scale(0.9);
+    /* transform: scale(0.9); */
 }
 
-.feature img {
+
+.mockup {
+   text-align: center;
+}
+
+.mockup img {
     width: 60%;
-    margin: 0px 64px;
+   margin:0 auto;
+}
+
+.mockup p {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -128,16 +139,6 @@ header img {
 .concept {
     background-color: #f2f2f5;
     padding: 64px;
-}
-
-.mockup {
-    overflow: hidden;
-}
-
-.mockup p {
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
 }
 
 .reason p {
