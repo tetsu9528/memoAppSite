@@ -149,15 +149,12 @@ header img {
     padding: 32px;
 }
 
+
 .reason p {
-    line-height: 32px;
+    display: block;
     font-size: 20px;
-    margin: 24px;
-}
-
-.reasonText {
-    width: 80%;
-
+    margin: 32px auto;
+    width:60%;
 }
 
 .conceptColorContents {
@@ -237,20 +234,20 @@ header img {
     width: 60%;
 }
 
-.processText {
-    width: 80%;
-    line-height: 48px;
-    margin: 16px auto;
-}
-
 #reference {
     font-weight: normal;
     opacity: .7;
 }
 
 .process-03 #heading {
+    display: block;
+    margin:12px auto;
     text-align: center;
-    margin: 0;
+
+}
+.process-03 p{
+    width:60%;
+   margin:24px auto;
 }
 
 
@@ -266,6 +263,12 @@ header img {
     margin-bottom: 128px;
 }
 
+.design01 p{
+    display: block;
+    width:60%;
+   margin:24px auto;
+}
+
 .wireFrame {
     margin: 64px;
 }
@@ -274,11 +277,6 @@ header img {
     display: block;
     margin: 16px auto;
     width: 40%;
-}
-
-.designText {
-    width: 80%;
-    margin: 16px auto;
 }
 
 .design02 {
