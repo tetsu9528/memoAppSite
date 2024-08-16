@@ -155,56 +155,6 @@ header img {
 
 
 
-/* 志望理由とコンセプトカラー */
-
-.concept {
-    background-color: #f2f2f5;
-    padding: 32px;
-}
-
-
-.reason p {
-    display: block;
-    font-size: 20px;
-    margin: 32px auto;
-    width: 60%;
-}
-
-.conceptColorContents {
-    display: flex;
-}
-
-.conceptColor-left {
-    width: 50%;
-    display: block;
-
-}
-
-.conceptColor-left p {
-    font-weight: bold;
-    color: #1E87FF;
-    font-size: 16px;
-    letter-spacing: .1em;
-    text-align: center;
-}
-
-.conceptColor-left img {
-    display: block;
-    margin: 0 auto;
-}
-
-.conceptColor-right {
-    width: 40%;
-}
-
-.conceptColor-right p {
-    display: block;
-    font-size: 20px;
-    margin: 32px auto;
-}
-
-
-
 /* 制作プロセス */
 
 .serviceProcess {
@@ -269,7 +219,6 @@ header img {
 /* 設計プロセス */
 
 .designProcess {
-    background-color: #f2f2f5;
     padding: 64px;
 }
 
@@ -423,15 +372,6 @@ header img {
 
     .description-right {
         all: unset;
-    }
-
-
-
-    /* コンセプトカラー */
-
-    .conceptColor-left img {
-        width: 50%;
-        margin: 16px auto;
     }
 
 
@@ -639,46 +579,6 @@ header img {
     .mockup p {
         font-size: 16px;
     }
-
-
-
-    /* 業界を目指した理由＆コンセプトカラー */
-
-    .concept p {
-        font-size: 14px;
-        line-height: 24px;
-        width: 100%;
-    }
-
-
-
-    .conceptColorContents {
-        all: unset;
-        display: block;
-        text-align: center;
-        margin: 32px auto;
-    }
-
-    .conceptColor-left {
-        margin: 16px auto;
-    }
-
-    .conceptColor-left p {
-        display: block;
-        margin: 16px auto;
-    }
-
-    .conceptColor-left img {
-        margin: 16px auto;
-    }
-
-    .conceptColor-right {
-        all: unset;
-        display: block;
-        text-align: center;
-        margin: 16px;
-    }
-
 
 
 
