@@ -696,11 +696,12 @@ header img {
         margin-bottom: 128px;
     }
     .design01 p{
-        width:80%;
+        width:100%;
         margin:16px auto;
         font-size: 14px;
         line-height: 24px;
     }
+    
 
     .design02-left img {
         margin: 0;
@@ -712,7 +713,6 @@ header img {
     
     .design02-right p{
         width:100%;
-        margin:16px auto;
         font-size: 14px;
         line-height: 24px;
     }
@@ -742,6 +742,7 @@ header img {
     }
 
     .UIText p {
+        width:100%;
         font-size: 14px;
         line-height: 24px;
     }
