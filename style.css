@@ -304,8 +304,6 @@ header img {
     width: 55%;
 }
 
-.design02-left img {}
-
 .design02-left,
 .design03-left {
     width: 50%;
@@ -333,13 +331,13 @@ header img {
 
 
 .design03 p {
-    margin-right: 64px;
-
+    display: block;
 }
 
 .design03-left p {
     font-size: 80px;
-    padding: 16px auto;
+    display: block;
+    text-align: center;
 }
 
 .UIText p {
@@ -566,7 +564,7 @@ header img {
     }
 
     .hero-right {
-        margin:0;
+        margin: 0;
         text-align: center;
     }
 
@@ -603,8 +601,9 @@ header img {
     }
 
     .description-right p {
-        font-size: 16px;
-        line-height: 32px;
+        font-size: 8px;
+        line-height: 16px;
+        font-weight: normal;
 
     }
 
@@ -628,9 +627,14 @@ header img {
 
     /* 業界を目指した理由＆コンセプトカラー */
 
-    .reason p {
-        font-size: 16px;
+    .concept p {
+        font-size: 8px;
+        line-height: 16px;
+        width: 100%;
+        font-weight: normal;
     }
+
+
 
     .conceptColorContents {
         all: unset;
@@ -640,6 +644,11 @@ header img {
     }
 
     .conceptColor-left {
+        margin: 16px auto;
+    }
+
+    .conceptColor-left p {
+        display: block;
         margin: 16px auto;
     }
 
@@ -654,9 +663,6 @@ header img {
         margin: 16px;
     }
 
-    .conceptColor-right p {
-        font-size: 16px;
-    }
 
 
 
@@ -671,8 +677,9 @@ header img {
     }
 
     .serviceProcess p {
-        font-size: 16px;
-        line-height: 32px;
+        font-size: 8px;
+        line-height: 16px;
+        font-weight: normal;
     }
 
     .process-right {
@@ -690,6 +697,11 @@ header img {
     .design01 {
         margin-bottom: 128px;
     }
+    .design01 p{
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 16px;
+    }
 
     .design02-left img {
         margin: 0;
@@ -698,10 +710,14 @@ header img {
     .design02-left img {
         width: 100%;
     }
-
+    
+    .design02-right p{
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 16px;
+    }
     .design03-left p {
         display: block;
-
         font-size: 32px;
         text-align: center;
         width: auto;
@@ -710,6 +726,10 @@ header img {
     .design03-right p {
         margin-right: 32px;
         text-align: left;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 16px;
+        
     }
 
     .wireFrame {
@@ -723,7 +743,9 @@ header img {
     }
 
     .UIText p {
-        font-size: 16px;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 16px;
     }
 
     #screen {
