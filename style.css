@@ -118,6 +118,9 @@ header img {
 
 
 /* 特徴 */
+.features{
+    margin-bottom: 64px;
+}
 
 .featureContents {
     display: flex;
@@ -281,6 +284,8 @@ header img {
 
 .design02 {
     display: flex;
+    width:80%;
+    margin:16px auto;
     margin-bottom: 128px;
 }
 
@@ -289,7 +294,11 @@ header img {
 }
 
 .design02-left img {
-    margin: 64px;
+   
+}
+.design02-left,
+.design03-left {
+    width: 50%;
 }
 
 .design02-right,
@@ -310,11 +319,7 @@ header img {
     display: flex;
 }
 
-.design02-left,
-.design03-left {
-    width: 50%;
-    padding: 48px;
-}
+
 
 
 .design03 p {
@@ -328,8 +333,8 @@ header img {
 }
 
 .UIText p {
-    width: 80%;
-    margin: 16px auto;
+    width: 75%;
+    margin: 0 auto;
 }
 
 
