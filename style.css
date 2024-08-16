@@ -65,7 +65,7 @@ header img {
     line-height: 128px;
     animation-name: fadeUpAnime;
     animation-delay: 1s;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -254,7 +254,7 @@ header img {
 
 .process-03 #heading {
     display: block;
-    margin: 12px auto;
+    margin: 64px auto;
     text-align: center;
 
 }
@@ -338,6 +338,7 @@ header img {
     font-size: 80px;
     display: block;
     text-align: center;
+    
 }
 
 .UIText p {
@@ -393,6 +394,7 @@ header img {
     }
 
     .hero-right {
+        margin:0;
         margin-bottom: 128px;
         transform: scale(0.7);
         text-align: center;
@@ -400,6 +402,7 @@ header img {
 
     .titles {
         all: unset;
+        width:100%;
     }
 
 
@@ -424,7 +427,7 @@ header img {
 
     .conceptColor-left img {
         width: 50%;
-        margin: 0;
+        margin: 16px auto;
     }
 
 
@@ -451,12 +454,21 @@ header img {
         text-align: center;
     }
 
+    .process-03 p{
+        width: 100%;
+        margin: 0;
+    }
+
 
 
     /* 設計プロセス */
 
     .design01 {
-        margin-bottom: 0;
+        margin-bottom: 64px;
+    }
+    .design01 p{
+        width: 100%;
+        margin: 0;
     }
 
     .design02 {
@@ -483,9 +495,9 @@ header img {
         all: unset;
     }
 
-    .design02-left p {
-        margin: 0;
-        margin-bottom: 64px;
+    .design02-left img{
+        display: block;
+        margin:32px auto;
     }
 
     .design02-right p {
@@ -509,7 +521,8 @@ header img {
     .design03-left p {
         margin: 0;
         font-size: 88px;
-        width: fit-content;
+        margin-bottom: 64px;
+       
     }
 
     .design03-right {
