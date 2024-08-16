@@ -3,6 +3,7 @@
 
 
 /* 全体 */
+
 * {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -22,7 +23,9 @@ h3 {
 }
 
 
+
 /* ヘッダー */
+
 header {
     display: flex;
     background-color: #eee;
@@ -38,6 +41,7 @@ header img {
 
 
 /* hero */
+
 .hero {
     display: flex;
 }
@@ -76,6 +80,7 @@ header img {
 
 
 /* QuickReviewとは？ */
+
 #sectionTitle {
     margin: 24px;
     font-size: 64px;
@@ -113,6 +118,7 @@ header img {
 
 
 /* 特徴 */
+
 .featureContents {
     display: flex;
     margin: 16px 32px;
@@ -137,6 +143,7 @@ header img {
 
 
 /* 志望理由とコンセプトカラー */
+
 .concept {
     background-color: #f2f2f5;
     padding: 32px;
@@ -150,7 +157,7 @@ header img {
 
 .reasonText {
     width: 80%;
-    
+
 }
 
 .conceptColorContents {
@@ -160,7 +167,7 @@ header img {
 .conceptColor-left {
     width: 50%;
     display: block;
-   
+
 }
 
 .conceptColor-left p {
@@ -173,7 +180,7 @@ header img {
 
 .conceptColor-left img {
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .conceptColor-right {
@@ -183,11 +190,13 @@ header img {
 .conceptColor-right p {
     display: block;
     font-size: 20px;
-    margin:32px auto;
+    margin: 32px auto;
 }
 
 
+
 /* 制作プロセス */
+
 .serviceProcess {
     padding: 64px;
 }
@@ -245,7 +254,9 @@ header img {
 }
 
 
+
 /* 設計プロセス */
+
 .designProcess {
     background-color: #f2f2f5;
     padding: 64px;
@@ -310,7 +321,7 @@ header img {
 
 .design03 p {
     margin-right: 64px;
-   
+
 }
 
 .design03-left p {
@@ -327,10 +338,14 @@ header img {
 
 @media(max-width:960px) {
 
+
+
     /* 全体 */
-    h1{
+
+    h1 {
         font-size: 24px;
     }
+
     h3 {
         margin: 0;
         text-align: center;
@@ -340,7 +355,7 @@ header img {
     .hero {
         display: block;
     }
-   
+
 
     .hero img {
         margin: 0;
@@ -357,7 +372,9 @@ header img {
     }
 
 
+
     /* QuickReviewとは？ */
+
     .descriptionContents {
         display: block;
     }
@@ -371,15 +388,17 @@ header img {
     }
 
 
+
     /* コンセプトカラー */
+
     .conceptColor-left img {
         width: 50%;
         margin: 0;
     }
 
 
+
     /* 制作プロセス */
-   
 
     .process {
         all: unset;
@@ -402,7 +421,9 @@ header img {
     }
 
 
+
     /* 設計プロセス */
+    
     .design01 {
         margin-bottom: 0;
     }
@@ -472,172 +493,208 @@ header img {
 }
 
 @media(max-width:431px) {
-    header img{
-        width:25px;
-    }
-    body{
-        all:unset;
+
+
+
+    /* 全体 */
+
+    body {
+        all: unset;
         line-height: 32px;
     }
-    p{
-        margin:32px;
+
+    p {
+        margin: 32px;
     }
 
-    h3{
+    h3 {
         font-size: 24px;
         margin-bottom: 32px;
     }
+
+
+
+    /* ヘッダー */
+
+    header img {
+        width: 25px;
+    }
+
     header h1 {
         margin: 8px;
     }
 
-    .hero img{
-        width:100%;
+
+
+    /* hero */
+
+    .hero img {
+        width: 100%;
     }
-    .hero-right{
-        all:unset;
-        width:50%;
+
+    .hero-right {
+        all: unset;
+        width: 50%;
         text-align: center;
     }
-    .titles{
-        all:unset;
+
+    .titles {
+        all: unset;
         display: block;
-       transform: scale(0.7);
-       margin-bottom: 128px;
-       
+        transform: scale(0.7);
+        margin-bottom: 128px;
+
     }
-    #subtitle{
+
+    #subtitle {
         font-size: 24px;
-        margin:0;
+        margin: 0;
         margin-bottom: 32px;
     }
-    #title{
-        margin:0;
+
+    #title {
+        margin: 0;
         font-size: 32px;
     }
-    #sectionTitle{
-        font-size: 24px;
-    }
-    .description-left img{
-        display: block;
-        margin:16px auto;
-    }
-    .description-right p{
-        font-size: 16px;
-        line-height: 32px;
-       
-    }
-   
-    .featureContents{
-        display: block;
-    }
-    .mockup img{
-        display: block;
-    }
-    .mockup p{
+
+
+
+    /* QuickReviewとは？ */
+
+    #sectionTitle {
         font-size: 24px;
     }
 
-    .design02-left img{
-        width:100%;
+    .description-left img {
+        display: block;
+        margin: 16px auto;
     }
 
-    .design03-left p{
-        display: block;
-  
-        font-size: 32px;
-        text-align: center;
-        width:auto;
-    }
-    
-    .design03-right p{
-        margin-right: 32px;
-        text-align: left;
-    }
-    
-    
-    .reason p{
-        
+    .description-right p {
         font-size: 16px;
-       
-    }
-   
-    
-    .conceptColor-right{
-        width:80%;
-        display: block;
-       text-align: center;
-       margin-left: 24px;
+        line-height: 32px;
+
     }
 
-    .conceptColor-right p{
+
+
+    /* 特徴 */
+
+    .featureContents {
+        display: block;
+    }
+
+    .mockup img {
+        display: block;
+    }
+
+    .mockup p {
+        font-size: 24px;
+    }
+
+
+
+    /* 業界を目指した理由＆コンセプトカラー */
+
+    .reason p {
         font-size: 16px;
     }
 
-    .conceptColorContents{
-        all:unset;
+    .conceptColorContents {
+        all: unset;
         display: block;
         text-align: center;
-        margin:32px auto;
+        margin: 32px auto;
     }
-    .conceptColor-left{
-      margin:16px auto;
+
+    .conceptColor-left {
+        margin: 16px auto;
     }
-    .conceptColor-left img{
-        margin:16px auto;
+
+    .conceptColor-left img {
+        margin: 16px auto;
     }
-    .conceptColor-right{
-        all:unset;
+
+    .conceptColor-right {
+        all: unset;
         display: block;
         text-align: center;
-        margin:16px;
+        margin: 16px;
     }
-   
-    #heading{
+
+    .conceptColor-right p {
         font-size: 16px;
     }
-    .serviceProcess p{
+
+
+
+    /* 制作プロセス */
+
+    #heading {
+        font-size: 16px;
+    }
+
+    .serviceProcess {
+        padding: 0;
+    }
+
+    .serviceProcess p {
         font-size: 16px;
         line-height: 32px;
     }
-    .process-right{
-        all:unset;
+
+    .process-right {
+        all: unset;
     }
-   
- #reference{
-    overflow-wrap: anywhere;
- }
-    .wireFrame{
-        all:unset;
+
+
+
+    /* 設計プロセス */
+
+    .designProcess {
+        padding: 32px;
     }
-    .wireFrame img{
-        all:unset;
-        width:100%;
-        margin:16px auto;
-    }
-    .design01{
+
+    .design01 {
         margin-bottom: 128px;
     }
 
-    .design02-left img{
-        margin:0;
+    .design02-left img {
+        margin: 0;
     }
-    .serviceProcess{
-        padding:0;
+
+    .design02-left img {
+        width: 100%;
     }
-    .designProcess{
-        padding:32px;
+
+    .design03-left p {
+        display: block;
+
+        font-size: 32px;
+        text-align: center;
+        width: auto;
     }
-    .UIText p{
+
+    .design03-right p {
+        margin-right: 32px;
+        text-align: left;
+    }
+
+    .wireFrame {
+        all: unset;
+    }
+
+    .wireFrame img {
+        all: unset;
+        width: 100%;
+        margin: 16px auto;
+    }
+
+    .UIText p {
         font-size: 16px;
     }
-    #screen{
-        margin:0;
+
+    #screen {
+        margin: 0;
     }
-    
-
-  
-
-   
-
 }
