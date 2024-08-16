@@ -536,6 +536,7 @@ header img {
 
     p {
         margin: 32px;
+        
     }
 
     h3 {
@@ -602,8 +603,7 @@ header img {
 
     .description-right p {
         font-size: 14px;
-        line-height: 16px;
-        font-weight: normal;
+        line-height: 24px;
 
     }
 
@@ -629,9 +629,8 @@ header img {
 
     .concept p {
         font-size: 14px;
-        line-height: 16px;
+        line-height: 24px;
         width: 100%;
-        font-weight: normal;
     }
 
 
@@ -677,9 +676,8 @@ header img {
     }
 
     .serviceProcess p {
-        font-size: 14px;
-        line-height: 16px;
-        font-weight: normal;
+        width:80%;
+        margin:16px auto;
     }
 
     .process-right {
@@ -698,9 +696,10 @@ header img {
         margin-bottom: 128px;
     }
     .design01 p{
-        font-weight: normal;
+        width:80%;
+        margin:16px auto;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 24px;
     }
 
     .design02-left img {
@@ -712,9 +711,10 @@ header img {
     }
     
     .design02-right p{
-        font-weight: normal;
+        width:100%;
+        margin:16px auto;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 24px;
     }
     .design03-left p {
         display: block;
@@ -726,9 +726,8 @@ header img {
     .design03-right p {
         margin-right: 32px;
         text-align: left;
-        font-weight: normal;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 24px;
         
     }
 
@@ -743,9 +742,8 @@ header img {
     }
 
     .UIText p {
-        font-weight: normal;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 24px;
     }
 
     #screen {
