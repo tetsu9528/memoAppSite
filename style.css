@@ -44,10 +44,15 @@ header img {
 
 .hero {
     display: flex;
+
 }
 
 .hero img {
     transform: scale(0.7);
+    animation-name: fadeInAnime;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .hero-right {
@@ -58,6 +63,11 @@ header img {
     font-weight: bold;
     letter-spacing: .1em;
     line-height: 128px;
+    animation-name: fadeUpAnime;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .titles {
@@ -118,7 +128,7 @@ header img {
 
 
 /* 特徴 */
-.features{
+.features {
     margin-bottom: 64px;
 }
 
@@ -157,7 +167,7 @@ header img {
     display: block;
     font-size: 20px;
     margin: 32px auto;
-    width:60%;
+    width: 60%;
 }
 
 .conceptColorContents {
@@ -244,13 +254,14 @@ header img {
 
 .process-03 #heading {
     display: block;
-    margin:12px auto;
+    margin: 12px auto;
     text-align: center;
 
 }
-.process-03 p{
-    width:60%;
-   margin:24px auto;
+
+.process-03 p {
+    width: 60%;
+    margin: 24px auto;
 }
 
 
@@ -266,10 +277,10 @@ header img {
     margin-bottom: 128px;
 }
 
-.design01 p{
+.design01 p {
     display: block;
-    width:60%;
-   margin:24px auto;
+    width: 60%;
+    margin: 24px auto;
 }
 
 .wireFrame {
@@ -284,8 +295,8 @@ header img {
 
 .design02 {
     display: flex;
-    width:80%;
-    margin:16px auto;
+    width: 80%;
+    margin: 16px auto;
     margin-bottom: 128px;
 }
 
@@ -293,9 +304,8 @@ header img {
     width: 55%;
 }
 
-.design02-left img {
-   
-}
+.design02-left img {}
+
 .design02-left,
 .design03-left {
     width: 50%;
@@ -337,7 +347,27 @@ header img {
     margin: 0 auto;
 }
 
+@keyframes fadeInAnime {
+    from {
+        opacity: 0;
+    }
 
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUpAnime {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 @media(max-width:960px) {
 
@@ -426,7 +456,7 @@ header img {
 
 
     /* 設計プロセス */
-    
+
     .design01 {
         margin-bottom: 0;
     }
@@ -536,8 +566,7 @@ header img {
     }
 
     .hero-right {
-        all: unset;
-        width: 50%;
+        margin:0;
         text-align: center;
     }
 
