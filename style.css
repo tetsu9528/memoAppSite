@@ -402,7 +402,11 @@ header img {
 
     .titles {
         all: unset;
-        width:100%;
+        width:100%;   
+    }
+
+    #subtitle{
+        font-size: 36px;
     }
 
 
