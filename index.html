@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuickReview</title>
+    <title>ReviewNotes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 </head>
 
 <header>
-    <h1>QuickReview</h1>
+    <h1>ReviewNotes</h1>
 </header>
 
 <body>
@@ -23,22 +23,22 @@
         <img src="./img/heroImg.png" alt="メモを取る人">
         <div class="hero-right">
             <div class="titles">
-                <p id="subtitle">手軽にレビューを作れるアプリ</p>
-                <p id="title">QuickReview</p>
+                <p id="subtitle">レビュー作成を助けるアプリ</p>
+                <p id="title">ReviewNotes</p>
             </div>
         </div>
     </div>
 
     <div class="description">
-        <h2 id="sectionTitle">QuickReviewとは？</h2>
+        <h2 id="sectionTitle">ReviewNotesとは？</h2>
         <div class="descriptionContents">
             <div class="description-left">
                 <img src="./img/mockup1.png" alt="ホーム画面">
             </div>
             <div class="description-right">
                 <h3>悩まない、レビュー作成</h3>
-                <p>レビュー作成アプリ「QuickReview」は、作品のレビューをより手軽に作れるサービスです。<br />
-                    レビューに必要な要点をあらかじめお題として用意しており、それらを埋めていくことでレビューを作ることができます。
+                <p>レビュー作成支援アプリ「ReviewNotes」は、作品のレビューをより手軽に作れるサービスです。<br />
+                    レビューに必要な要点をあらかじめ用意してあることがこのアプリの特徴です。
                 </p>
             </div>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="mockup">
                 <img src="./img/mockup3.png" alt="レビュー作成画面">
-                <p id="screen">用意されたテンプレート</p>
+                <p id="screen">用意されたお題</p>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
     <div class="serviceProcess">
         <h2 id="sectionTitle">制作プロセス</h2>
         <div class="process-01">
-            <h3>01 レビューを書くハードル</h3>
+            <h3>01 制作のきっかけ</h3>
             <div class="process">
                 <div class="process-left">
                     <img src="./img/troubleMan.png" alt="悩む人">
@@ -99,12 +99,11 @@
         </div>
 
         <div class="process-03">
-            <h3>03 どのようなアプリにするか</h3>
+            <h3>03 アプリの方針</h3>
             <p id="heading">レビューの負担を減らす</p>
 
             <p>まず一番に解決するべき問題は「感想とレビューはどう違うのか？」だと考えました。
-                検索すれば感想とレビューの違いについて解説しているサイトがいくつかありますが、調べる負担が生じてしまいます。
-                そこで、感想にはなく、レビューにはある要素を最初から用意してあるサービスがあれば、手軽にレビューを作成できるのではないかと考えました。<br />
+                そこで私は、感想にはなく、レビューにはある要素を最初から用意してあるサービスがあれば、手軽にレビューを作成できるのではないかと考えました。<br />
                 レビューにしかない要素として、例えば「自分が購入する決め手になった要素」「面白いと感じた理由」などがあります。<br /></p>
             <p id="reference">参考)読んでおきたいレビューの心得 <br /><a href="https://ncode.syosetu.com/n2109ck/2/"
                     target="_blank">https://ncode.syosetu.com/n2109ck/2/</a><br />
@@ -129,6 +128,7 @@
 
             <p>制作プロセスで出た情報をもとに作成しました。
                 このUIを作成するにあたってDLsitePlayとnotionを参考にしました。参考にした理由としては、普段からこの2つのサービスを使っていて、非常に使い心地が良いためです。
+
                </p>
 
         </div>
@@ -151,7 +151,7 @@
             <h3>02 アプリ名の決定</h3>
             <div class="designContents">
                 <div class="design03-left">
-                    <p>QuickReview</p>
+                    <p>ReviewNotes</p>
                 </div>
                 <div class="design03-right">
                     <p>このアプリの内容がすぐわかるように、シンプルな名前にしました。</p>
@@ -179,7 +179,15 @@
             <div class="UIText">
                 <p>ワイヤーフレームをもとに、アプリのUIを制作しました。
                     長時間使っても目に負担がかからないよう、黒をメインとした配色にしました。
-                    レビューのみに集中してほしいため、一目でどこを操作すればよいかわかるようにしました。
+                    レビューのみに集中してほしいため、一目でどこを操作すればよいかわかるようにしました。<br />
+                    なお、現在は以下の機能が実装されておりません。
+                    <ul>
+                        <li>タブの切り替え</li>
+                        <li>画像の変更</li>
+                        <li>評価の設定</li>
+                        <li>書き換えた内容の保存</li>
+                        <li>メモの検索</li>
+                    </ul>
                    </p>
                 <p id="reference">githubURL) <a href="https://tetsu9528.github.io/memoApp/" target="blank">https://tetsu9528.github.io/memoApp/</a></p>
             </div>

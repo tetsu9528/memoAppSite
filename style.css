@@ -296,6 +296,12 @@ header {
     margin: 0 auto;
 }
 
+.UIText ul{
+    display: block;
+    width:75%;
+    margin:16px auto;
+}
+
 
 /* footer */
 
