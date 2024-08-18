@@ -22,6 +22,12 @@ h3 {
     margin: 48px 64px;
 }
 
+a{
+    text-decoration: none;
+    color:#000000;
+    opacity: .7;
+}
+
 
 
 /* ヘッダー */
@@ -288,6 +294,21 @@ header {
 .UIText p {
     width: 75%;
     margin: 0 auto;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: #000000;
+    color:#ffffff;
+    text-align: center;
+    padding:24px;
+}
+
+footer p{
+ all:unset;
+ margin:64px;
 }
 
 @keyframes fadeInAnime {
