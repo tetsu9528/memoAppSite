@@ -83,7 +83,7 @@ header {
 
 #subtitle {
     font-size: 48px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 #title {
